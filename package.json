@@ -1,0 +1,25 @@
+{
+  "name": "project_game",
+  "version": "1.0.0",
+  "description": "Projeto do mod-04-c011-Blue",
+  "main": "dist/index.js",
+  "scripts": {
+   "start": "node dist/index.js",
+   "build": "npx tsc",
+   "bas":"npm run build && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoXavier16/Project_game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoXavier16/Project_game/issues"
+  },
+  "homepage": "https://github.com/EduardoXavier16/Project_game#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
